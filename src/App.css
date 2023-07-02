@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.code-border{
+   
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right bottom, #ffffff38, #ffffff00);
+    background: linear-gradient(111.93deg, rgba(14, 26, 45, 0.24) -1.4%, rgba(17, 30, 50, 0.38) 104.96%)
+
+}
+.codeblocks1, .codeblocks2{
+    border-radius: 100%;
+    filter: blur(34px);
+    height: 257.07px;
+    left: calc(50% - 263.005px);
+    opacity: .2;
+    top: calc(50% - 175.995px);
+    -webkit-transform: matrix(1, 0, -.03, 1, 0, 0);
+    transform: matrix(1, 0, -.03, 1, 0, 0);
+    width: 372.95px;
+
+
+}
+.codeblocks1{
+    background: linear-gradient(123.77deg, #8A2BE2 -6.46%, #FFA500 59.04%, #F8F8FF 124.53%);
+}
+
+.codeblocks2{
+    background: linear-gradient(118.19deg,#1fa2ff -3.62%,#12d8fa 50.44%,#a6ffcb 104.51%);
+    position: absolute;
+}
+
+.blackButton {
+    @apply cursor-pointer rounded-md bg-richblack-800 px-[20px] py-[8px] font-semibold text-richblack-5;
+  }
+  .lable-style {
+    @apply text-[14px] text-richblack-5;
+  }
+  .form-style {
+    @apply rounded-lg bg-richblack-700 p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-richblack-400 focus:outline-none;
+  }
+  .section_heading {
+    @apply text-2xl font-bold text-richblack-5 lg:text-4xl;
+  }
+
+  .yellowButton {
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    background-color: rgb(255 214 10/var(--tw-bg-opacity));
+    border-radius: .375rem;
+    color: rgb(0 8 20/var(--tw-text-opacity));
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px 20px;
+  }
