@@ -14,7 +14,6 @@ exports.updateCourseProgress = async(req, res, next) => {
         courseId: courseId,
         user: userId,
     })
-    console.log(courseProgress);
     if(!courseProgress){
         return next(new ErrorHandler("Course Progress does not exist", 404))
     }

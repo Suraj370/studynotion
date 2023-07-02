@@ -65,7 +65,6 @@ exports.updateDisplayPicture = async(req, res, next) => {
 
     const displayPicture = req.files.displayPicture
     const userId = req.user.id
-    console.log(userId);
     const image = await uploadImageToCloudinary(
         displayPicture,
         process.env.FOLDER_NAME,
