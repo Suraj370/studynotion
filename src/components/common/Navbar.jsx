@@ -85,7 +85,9 @@ function Navbar() {
                               ))}
                           </>
                         ) : (
-                          <></>
+                          <>
+                          <p>Loading...</p>
+                          </>
                         )}
                       </div>
                     </div>
